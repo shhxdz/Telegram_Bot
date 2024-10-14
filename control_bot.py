@@ -104,7 +104,7 @@ def webhook():
 # راه‌اندازی ربات با استفاده از webhook
 def set_webhook():
     bot.remove_webhook()  # حذف وب‌هوک قبلی (اگر وجود داشته باشد)
-    bot.set_webhook(url='https://web-production-f6d09.up.railway.app/webhook')
+    bot.set_webhook(url='https://web-production-f0db.up.railway.app/webhook')
 
 
 if __name__ == '__main__':
